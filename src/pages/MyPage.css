@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.rating-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rating-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease;
+}
+
+.rating-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
